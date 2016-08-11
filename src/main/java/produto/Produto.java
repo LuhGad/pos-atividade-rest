@@ -5,10 +5,13 @@
  */
 package produto;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
 /**
  *
  * @author nanda
  */
+@XmlRootElement
 public class Produto {
     
     private int id;
